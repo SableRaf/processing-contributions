@@ -608,7 +608,7 @@ contributions:
     https://studioijeoma.com/processing/ijeomamotion/download/ijeomamotion.txt
 - id: 34
   source: http://www.deadpixel.ca/keystone/download/keystone.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Keystone
   authors: '[David Bouchard](http://www.deadpixel.ca)'
@@ -889,7 +889,7 @@ contributions:
     http://www.lagers.org.uk/processing3/g4p/G4P.txt, 2026-07-22
 - id: 47
   source: http://transmote.com/nest/download/Nest.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Nest
   authors: '[Eric Socolofsky](http://transmote.com/)'
@@ -2262,7 +2262,7 @@ contributions:
 - id: 120
   source: 
     https://fox-gieg.com/patches/processing/libraries/SimpleOpenNI/SimpleOpenNI.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: SimpleOpenNI
   authors: '[Max Rheiner & Antonio Vega](http://code.google.com/p/simple-openni/)'
@@ -2599,7 +2599,7 @@ contributions:
 - id: 136
   source: 
     https://fox-gieg.com/patches/processing/libraries/gifAnimation/gifAnimation.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: GifAnimation
   authors: '[Patrick Meister, Jerome Saint-Clair](http://www.extrapixel.ch)'
@@ -2816,7 +2816,7 @@ contributions:
     http://www.heroicrobotics.com/software/PixelPusher.txt
 - id: 146
   source: http://boofcv.org/processing/boofcv_processing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: BoofCV for Processing
   authors: Peter Abeles
@@ -2839,7 +2839,7 @@ contributions:
   - url timeout, 2026-11-19
 - id: 147
   source: http://code.compartmental.net/minim/distro/minim_for_processing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Minim
   authors: '[Damien Di Fede](http://code.compartmental.net/) and [Anderson Mills](http://konfuzo.net/)'
@@ -4504,7 +4504,7 @@ contributions:
     - Hardware
 - id: 219
   source: https://teddavis.org/xyscope/download/XYscope.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: XYscope
   authors: '[Ted Davis](https://www.teddavis.org)'
@@ -5937,7 +5937,7 @@ contributions:
 - id: 272
   source: 
     https://fox-gieg.com/patches/processing/libraries/latkProcessing/latkProcessing.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Latk for Processing
   authors: '[Nick Fox-Gieg](https://fox-gieg.com)'
@@ -6203,7 +6203,7 @@ contributions:
     - Math
 - id: 283
   source: https://fox-gieg.com/patches/processing/libraries/joons/joons.txt
-  status: BROKEN
+  status: VALID
   type: library
   name: Joon's Renderer
   authors: '[Joon Hyub Lee](https://sketch.kaist.ac.kr/people/joonhyublee)'
@@ -6794,17 +6794,17 @@ contributions:
   source: 
     https://github.com/processing-cpp/processing.cpp/releases/latest/download/CppMode.txt
   name: C++ Mode
-  authors: '[Jose Gonzalez Llamas](https://github.com/pepc84)'
-  url: https://github.com/processing-cpp/processing.cpp
+  authors: '[Jose Llamas](https://github.com/llamasjc)'
+  url: https://github.com/processing-cpp/processing-cpp
   categories:
   - other
   sentence: Write and run Processing sketches in C++.
-  paragraph: C++ Mode lets you write sketches using the familiar Processing API 
-    — size(), ellipse(), mouseX, draw() — but compiled to a native binary via 
-    g++. Runs on Linux and Windows (via MSYS2). Requires g++ and OpenGL (GLFW + 
-    GLEW).
-  version: '18'
-  prettyVersion: 0.7.0
+  paragraph: 'Write sketches in C++ with the Processing API you already know: size(),
+    ellipse(), mouseX, draw(). They compile to a native program with g++. Two renderers,
+    OpenGL and libprocessing on your graphics card. Runs on Linux, macOS and Windows,
+    and offers to install what it needs the first time.'
+  version: '19'
+  prettyVersion: 1.0.0
   minRevision: 1280
   maxRevision: 0
   modes:
@@ -6827,7 +6827,9 @@ contributions:
   - 0.5.4
   - 0.6.0
   - 0.6.1
+  - 0.7.0
   prettyversion: 0.2.0
+  lastUpdated: 2026-11-20T13:36:44+0000
 - id: 307
   status: VALID
   dateAdded: 2026-06-29T10:23:49+0000
